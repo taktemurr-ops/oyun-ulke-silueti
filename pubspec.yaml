@@ -1,0 +1,24 @@
+name: oyun_ulke_silueti
+description: "Ülke Silüeti – Bilgi Yarışması merkez uygulamasının oyunu."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 8cb935c63a86ca3e5fb38758edd5bb8ec44dccdd
+  bilgi_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/bilgi-motoru
+      ref: 51637b331e54830f48a7aceedb4ca21c48d7b8cd
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
